@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/you_win"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivComputerPick2"
+        android:layout_width="91dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/tvVS2"
+        app:layout_constraintEnd_toStartOf="@+id/tvVS2"
+        app:layout_constraintTop_toTopOf="@+id/tvVS2"
+        app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/tvVS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="V.S."
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <ImageView
+        android:id="@+id/ivPlayerPick2"
+        android:layout_width="91dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="@+id/tvVS2"
+        app:layout_constraintStart_toEndOf="@+id/tvVS2"
+        app:layout_constraintTop_toTopOf="@+id/tvVS2"
+        app:srcCompat="@drawable/paper" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/you"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivPlayerPick2"
+        app:layout_constraintStart_toStartOf="@+id/ivPlayerPick2"
+        app:layout_constraintTop_toBottomOf="@+id/ivPlayerPick2" />
+
+    <TextView
+        android:id="@+id/tvComputerText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/computer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivComputerPick2"
+        app:layout_constraintStart_toStartOf="@+id/ivComputerPick2"
+        app:layout_constraintTop_toBottomOf="@+id/ivComputerPick2" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResult" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

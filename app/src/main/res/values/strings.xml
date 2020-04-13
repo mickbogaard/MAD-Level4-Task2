@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MAD-Level4-Task2</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions: select rock, paper or scissors to play</string>
+    <string name="win_draw_loss">Win: %1$d Draw: %2$d Lose: %3$d</string>
+    <string name="your_all_time_statistics">Your all time statistics</string>
+    <string name="you_win">You win</string>
+    <string name="computer">Computer</string>
+    <string name="you">You</string>
+    <string name="show_game_history">Show Game History</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="date">date</string>
+    <string name="v_s">V.S.</string>
+    <string name="delete_history">delete</string>
+    <string name="result_draw">Draw</string>
+    <string name="result_win">You win!</string>
+    <string name="result_loss">Computer wins!</string>
+</resources>

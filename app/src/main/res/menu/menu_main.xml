@@ -1,0 +1,11 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidcourse.shoppinglistkotlin.MainActivity">
+    <item
+        android:id="@+id/action_show_history"
+        android:icon="@drawable/ic_restore_white_24dp"
+        android:title="@string/show_game_history"
+        app:showAsAction="ifRoom" />
+</menu>
